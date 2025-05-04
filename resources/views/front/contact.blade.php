@@ -23,7 +23,7 @@
             <div class="col-lg-6">
 
                 <div class="row gy-4">
-                    <div class="col-md-6">
+                    {{-- <div class="col-md-6">
                         <div class="info-item" data-aos="fade" data-aos-delay="200">
                             <i class="bi bi-geo-alt"></i>
                             <h3>Address</h3>
@@ -39,7 +39,7 @@
                             <p>+88-01811317129</p>
                             <p>+8802222225006</p>
                         </div>
-                    </div><!-- End Info Item -->
+                    </div><!-- End Info Item --> --}}
 
                     <div class="col-md-6">
                         <div class="info-item" data-aos="fade" data-aos-delay="400">

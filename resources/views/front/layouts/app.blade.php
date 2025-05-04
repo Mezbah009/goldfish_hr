@@ -43,7 +43,7 @@
     <header id="header" class="header d-flex align-items-center fixed-top">
         <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
-            <a href="index.html" class="logo d-flex align-items-center me-auto">
+            <a href="{{ route('front.home') }}"  class="logo d-flex align-items-center me-auto">
                 <!-- Uncomment the line below if you also wish to use an image logo -->
                 <img src="{{ asset('front-assets/assets/img/logo.png') }}" alt="">
                 {{-- <h1 class="sitename">Goldfish</h1> --}}
@@ -160,9 +160,13 @@
                         <span class="sitename">Goldfish</span>
                     </a>
                     <div class="footer-contact pt-3">
-                        <p>Khan Tower (2nd Floor , 3rd Floor & 4th Floor) </p>
+
+                        <p>
+                            Streamline your human resources and payroll processes with HRM comprehensive module. Manage employee data, attendance, and payroll seamlessly, ensuring accuracy and efficiency in HR operations.
+                        </p>
+                        {{-- <p>Khan Tower (2nd Floor , 3rd Floor & 4th Floor) </p>
                         <p>80/3, VIP Road, Kakrail Dhaka, Bangladesh.</p>
-                        <p class="mt-3"><strong>Phone:</strong> <span>+88-01811317129</span></p>
+                        <p class="mt-3"><strong>Phone:</strong> <span>+88-01811317129</span></p> --}}
                         <p><strong>Email:</strong> <span>info@opus-bd.com</span></p>
                     </div>
                 </div>
@@ -192,11 +196,7 @@
 
                 <div class="col-lg-4 col-md-12">
                     <h4>Follow Us</h4>
-                    <p>Streamline your human resources and payroll
-                        processes with HRM comprehensive
-                        module. Manage employee data, attendance, and
-                        payroll seamlessly, ensuring accuracy and efficiency
-                        in HR operations.
+                    <p>Streamline your HR and payroll operations with the right system—saving time, cutting costs, and reducing errors across your organization.
                         </p>
                     <div class="social-links d-flex">
                         <a href=""><i class="bi bi-twitter-x"></i></a>
@@ -210,7 +210,7 @@
         </div>
 
         <div class="container copyright text-center mt-4">
-            <p>© <span>Copyright</span> <strong class="px-1 sitename"><a href="https://opus-bd.com/">Opus Technology Limited</a></strong> <span>All Rights
+            <p>© <span>Copyright</span> <strong class="px-1 sitename"><a href="https://opus-bd.com/">Goldfish-HR</a></strong> <span>All Rights
                     Reserved</span></p>
             <div class="credits">
                 <!-- All the links in the footer should remain intact. -->
