@@ -1328,7 +1328,7 @@ section,
   padding: 0;
   list-style: none;
   color: var(--default-color);
-  text-align: left;
+  text-align: left !important;
   line-height: 26px;
   font-size: 16px;
   margin-bottom: 25px;
