@@ -860,15 +860,13 @@
                                         class="bi bi-star-fill"></i>
                                 </div>
                                 <p>
-                                    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit
-                                    rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam,
-                                    risus at semper.
+                                    bKash Limited has appointed OPUS Technology Limited to develop Payroll Software, Supply Chain Management System, Financial Accounting Software which includes Finance Operations Module, Fixed Assets Module, Advance taking & settlement Module, Payment modules, Tax/VAT modules etc. Their dedication and problem-solving attitude in least possible time is praiseworthy and they have a team of enthusiastic and energetic people who have given all sorts of support wholeheartedly.
                                 </p>
                                 <div class="profile mt-auto">
-                                    <img src="{{ asset('front-assets/assets/img/testimonials/testimonials-1.jpg') }}"
+                                    <img src="{{ asset('front-assets/assets/img/testimonials/bkash.png') }}"
                                         class="testimonial-img" alt="">
-                                    <h3>Saul Goodman</h3>
-                                    <h4>Ceo &amp; Founder</h4>
+                                    <h3>Muhammad Mahfuzur Rahman FCA</h3>
+                                    <h4>Finance Controller bKash Limited</h4>
                                 </div>
                             </div>
                         </div><!-- End testimonial item -->
