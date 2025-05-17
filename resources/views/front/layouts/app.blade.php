@@ -43,7 +43,7 @@
     <header id="header" class="header d-flex align-items-center fixed-top">
         <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
-            <a href="{{ route('front.home') }}"  class="logo d-flex align-items-center me-auto">
+            <a href="{{ route('front.home') }}" class="logo d-flex align-items-center me-auto">
                 <!-- Uncomment the line below if you also wish to use an image logo -->
                 <img src="{{ asset('front-assets/assets/img/logo.png') }}" alt="">
                 {{-- <h1 class="sitename">Goldfish</h1> --}}
@@ -53,57 +53,96 @@
                 <ul>
                     <li><a href="{{ route('front.home') }}" class="active">Home<br></a></li>
                     <li class="listing-dropdown"><a href="#"><span>Features</span> <i
-                        class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                    <li>
-                        <a href="#">Column 1 link 1</a>
-                        <p style="text-align: justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sunt quidem totam consectetur quam aliquid eligendi ea, laudantium atque similique ab, dolorem velit saepe ad inventore ullam obcaecati laboriosam distinctio.</p>
-                        <a href="#">Column 1 link 2</a>
-                        <a href="#">Column 1 link 3</a>
+                                class="bi bi-chevron-down toggle-dropdown"></i></a>
+                        <ul>
+                            <li>
+                                <a href="#">Attendance Management</a>
+                                <p style="padding-left: 22px; font-size: 12px;">
+                                    Cloud-Based Employee
+                                    Attendance Management Software
+                                </p>
+                                <a href="#">Shift Management</a>
+                                <p style="padding-left: 22px; font-size: 12px;">
+                                    Cloud-Based Employee Scheduling and
+                                    Shift Management Solution
+                                </p>
+                                <a href="#">Tax Management</a>
+                                <p style="padding-left: 22px; font-size: 12px;">
+                                    Tax Calculation, Tax Rule set-up etc.
+                                    with the Complete HR Solution
+                                </p>
+                                {{-- <a href="#">Face Recognition</a>
+                                <p style="padding-left: 22px; font-size: 12px;">
+                                    Now access any of your office location
+                                    globally with just a smile.
+                                </p> --}}
+                            </li>
+                            <li>
+                                <a href="#">Employee Leave Management</a>
+                                <p style="padding-left: 22px; font-size: 12px;">
+                                    Track all types of leave, No spreadsheets, No paper.
+                                </p>
+                                <a href="#">Employee Tracking</a>
+                                <p style="padding-left: 22px; font-size: 12px;">
+                                    Track Your Employees as They Work with The Best HR Software
+                                </p>
+                                <a href="#">Digital notice board</a>
+                                <p style="padding-left: 22px; font-size: 12px;">
+                                    Create Announcements, Notice Board, and More with Goldfish HR
+                                </p>
+                            </li>
+                            <li>
+                                <a href="#">Expense Management</a>
+                                <p style="padding-left: 22px; font-size: 12px;">
+                                    Capture And Record Every Penny Your Business Spends
+                                </p>
+                                <a href="#">Payroll Software</a>
+                                <p style="padding-left: 22px; font-size: 12px;">
+                                    All in one HR Payroll and Loan Management Software
+                                </p>
+                                <a href="#">Task Management</a>
+                                <p style="padding-left: 22px; font-size: 12px;">
+                                    Employee Task Management System and Activity with Goldfish HR
+                                </p>
+                            </li>
+
+                            <li>
+                                <a href="#">Employee Management</a>
+                                <p style="padding-left: 22px; font-size: 12px;">
+                                    Most Handy Employee Management Tool with All Features
+                                </p>
+                                <a href="#">Security</a>
+                                <p style="padding-left: 22px; font-size: 12px;">
+                                    Employee Management Became Secured and Powerful by Goldfish HR
+                                </p>
+                                <a href="#">Notifications</a>
+                                <p style="padding-left: 22px; font-size: 12px;">
+                                    Best HR Software with Mail Notification and Pop-up Feature
+                                </p>
+                            </li>
+                        </ul>
                     </li>
-                    <li>
-                        <a href="#">Column 2 link 1</a>
-                        <a href="#">Column 2 link 2</a>
-                        <a href="#">Column 3 link 3</a>
-                    </li>
-                    <li>
-                        <a href="#">Column 3 link 1</a>
-                        <a href="#">Column 3 link 2</a>
-                        <a href="#">Column 3 link 3</a>
-                    </li>
-                    <li>
-                        <a href="#">Column 4 link 1</a>
-                        <a href="#">Column 4 link 2</a>
-                        <a href="#">Column 4 link 3</a>
-                    </li>
-                    <li>
-                        <a href="#">Column 5 link 1</a>
-                        <a href="#">Column 5 link 2</a>
-                        <a href="#">Column 5 link 3</a>
-                    </li>
-                </ul>
-            </li>
                     <li><a href="{{ route('front.pricing') }}">Pricing</a></li>
                     {{-- <li><a href="#services">Services</a></li> --}}
                     <li class="dropdown"><a href="#"><span>Devices</span> <i
-                        class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                    <li><a href="#">Dropdown 1</a></li>
-                    <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i
                                 class="bi bi-chevron-down toggle-dropdown"></i></a>
                         <ul>
-                            <li><a href="#">Deep Dropdown 1</a></li>
-                            <li><a href="#">Deep Dropdown 2</a></li>
-                            <li><a href="#">Deep Dropdown 3</a></li>
-                            <li><a href="#">Deep Dropdown 4</a></li>
-                            <li><a href="#">Deep Dropdown 5</a></li>
+                            <li><a href="#">Dropdown 1</a></li>
+                            <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i
+                                        class="bi bi-chevron-down toggle-dropdown"></i></a>
+                                <ul>
+                                    <li><a href="#">Deep Dropdown 1</a></li>
+                                    <li><a href="#">Deep Dropdown 2</a></li>
+                                    <li><a href="#">Deep Dropdown 3</a></li>
+                                    <li><a href="#">Deep Dropdown 4</a></li>
+                                    <li><a href="#">Deep Dropdown 5</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Dropdown 2</a></li>
+                            <li><a href="#">Dropdown 3</a></li>
+                            <li><a href="#">Dropdown 4</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">Dropdown 2</a></li>
-                    <li><a href="#">Dropdown 3</a></li>
-                    <li><a href="#">Dropdown 4</a></li>
-                </ul>
-            </li>
 
                     {{-- <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#team">Team</a></li> --}}
@@ -118,20 +157,20 @@
 
         </div>
     </header>
-        <!-- =====  HEADER END  ===== -->
+    <!-- =====  HEADER END  ===== -->
 
 
-        <main>
+    <main>
 
-            @yield('content')
-
-
-        </main>
+        @yield('content')
 
 
+    </main>
 
 
-        <!-- =====  FOOTER START  ===== -->
+
+
+    <!-- =====  FOOTER START  ===== -->
 
     <footer id="footer" class="footer">
 
@@ -141,7 +180,8 @@
                     <div class="col-lg-6">
                         <h4>Join Our Newsletter</h4>
                         <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
-                        <form action="{{ asset('front-assets/forms/newsletter.php') }}" method="post" class="php-email-form">
+                        <form action="{{ asset('front-assets/forms/newsletter.php') }}" method="post"
+                            class="php-email-form">
                             <div class="newsletter-form"><input type="email" name="email"><input type="submit"
                                     value="Subscribe"></div>
                             <div class="loading">Loading</div>
@@ -162,7 +202,9 @@
                     <div class="footer-contact pt-3">
 
                         <p>
-                            Streamline your human resources and payroll processes with HRM comprehensive module. Manage employee data, attendance, and payroll seamlessly, ensuring accuracy and efficiency in HR operations.
+                            Streamline your human resources and payroll processes with HRM comprehensive module. Manage
+                            employee data, attendance, and payroll seamlessly, ensuring accuracy and efficiency in HR
+                            operations.
                         </p>
                         {{-- <p>Khan Tower (2nd Floor , 3rd Floor & 4th Floor) </p>
                         <p>80/3, VIP Road, Kakrail Dhaka, Bangladesh.</p>
@@ -176,7 +218,8 @@
                     <ul>
                         <li><i class="bi bi-chevron-right"></i> <a href="{{ route('front.home') }}">Home</a></li>
                         <li><i class="bi bi-chevron-right"></i> <a href="#">Features</a></li>
-                        <li><i class="bi bi-chevron-right"></i> <a href="{{ route('front.pricing') }}">Pricing</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="{{ route('front.pricing') }}">Pricing</a>
+                        </li>
                         <li><i class="bi bi-chevron-right"></i> <a href="#">Devices</a></li>
                     </ul>
                 </div>
@@ -185,19 +228,20 @@
                     <h4>Our Services</h4>
                     <ul>
                         <li><i class="bi bi-chevron-right"></i> <a href="#">Employee Information
-                            Management</a></li>
+                                Management</a></li>
                         <li><i class="bi bi-chevron-right"></i> <a href="#">Attendance and
-                            Time Tracking</a></li>
+                                Time Tracking</a></li>
                         <li><i class="bi bi-chevron-right"></i> <a href="#">Payroll Processing</a></li>
                         <li><i class="bi bi-chevron-right"></i> <a href="#">Benefits
-                            Administration</a></li>
+                                Administration</a></li>
                     </ul>
                 </div>
 
                 <div class="col-lg-4 col-md-12">
                     <h4>Follow Us</h4>
-                    <p>Streamline your HR and payroll operations with the right system—saving time, cutting costs, and reducing errors across your organization.
-                        </p>
+                    <p>Streamline your HR and payroll operations with the right system—saving time, cutting costs, and
+                        reducing errors across your organization.
+                    </p>
                     <div class="social-links d-flex">
                         <a href=""><i class="bi bi-twitter-x"></i></a>
                         <a href=""><i class="bi bi-facebook"></i></a>
@@ -210,7 +254,8 @@
         </div>
 
         <div class="container copyright text-center mt-4">
-            <p>© <span>Copyright</span> <strong class="px-1 sitename"><a href="https://opus-bd.com/">Goldfish-HR</a></strong> <span>All Rights
+            <p>© <span>Copyright</span> <strong class="px-1 sitename"><a
+                        href="https://opus-bd.com/">Goldfish-HR</a></strong> <span>All Rights
                     Reserved</span></p>
             <div class="credits">
                 <!-- All the links in the footer should remain intact. -->
