@@ -29,7 +29,7 @@
                     <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
                         <div class="pricing-tem">
                             <h3 style="color: #20c997;">Free Plan</h3>
-                            <div class="price"><sup>৳</sup>2000<span> / mo</span></div>
+                            <div class="price"><sup>$</sup>2000<span> / mo</span></div>
                             <div class="icon">
                                 <i class="bi bi-box" style="color: #20c997;"></i>
                             </div>
@@ -68,7 +68,7 @@
                         <div class="pricing-tem">
                             <span class="featured">Featured</span>
                             <h3 style="color: #0dcaf0;">Starter Plan</h3>
-                            <div class="price"><sup>৳</sup>4000<span> / mo</span></div>
+                            <div class="price"><sup>$</sup>4000<span> / mo</span></div>
                             <div class="icon">
                                 <i class="bi bi-send" style="color: #0dcaf0;"></i>
                             </div>
@@ -105,7 +105,7 @@
                     <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
                         <div class="pricing-tem">
                             <h3 style="color: #fd7e14;">Business Plan</h3>
-                            <div class="price"><sup>৳</sup>6000<span> / mo</span></div>
+                            <div class="price"><sup>$</sup>6000<span> / mo</span></div>
                             <div class="icon">
                                 <i class="bi bi-airplane" style="color: #fd7e14;"></i>
                             </div>
@@ -142,7 +142,7 @@
                     <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
                         <div class="pricing-tem">
                             <h3 style="color: #0d6efd;">Ultimate Plan</h3>
-                            <div class="price"><sup>৳</sup>10,000<span> / mo</span></div>
+                            <div class="price"><sup>$</sup>10,000<span> / mo</span></div>
                             <div class="icon">
                                 <i class="bi bi-rocket" style="color: #0d6efd;"></i>
                             </div>
